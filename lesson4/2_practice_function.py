@@ -6,9 +6,9 @@
 from collections import Iterable
 from math import floor
 
-# 自己实现一个求和函数
+# 自己实现一个求和函数。
 
-# 自己实现一个求最大值或最小值的函数
+# 自己实现一个求最大值或最小值的函数。
 
 # def my_max(num, *rest_nums):
 #     ret = 0
@@ -25,7 +25,7 @@ from math import floor
 # print("my_max: ", my_max(5, 2, 3, 4))
 
 
-# 再一次，尝试用函数的递归特性实现一个函数，它能够输出特定范围内的斐波那契数列
+# 再一次，尝试用函数的递归特性实现一个函数，它能够输出特定范围内的斐波那契数列。
 
 # def fib(maxNum, i=0, j=1):
 #     if j < maxNum:
@@ -37,7 +37,7 @@ from math import floor
 # fib(50)
 
 
-# 实现一个函数能够输出 * 组成的菱形
+# 实现一个函数能够输出 * 组成的菱形。
 
 # def draw(width, i=1, align='left'):
 #     asterisk = ''

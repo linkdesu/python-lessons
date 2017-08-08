@@ -3,12 +3,15 @@
     range
 """
 
+# range 函数返回的是一个可遍历的 Range 对象。
 a = range(10)
 print("a: ", a)
 
-# range(stop)
+# 使用 list 函数可以将 Range 对象转为 List 对象，不过并没有这样的必要。
 b = list(range(10))
 print("b: ", b)
+
+# range 函数使用方法举例：
 
 # range(start, stop)
 c = list(range(1, 11))

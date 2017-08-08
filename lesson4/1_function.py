@@ -47,4 +47,3 @@ def re_func(a):
         print('End: ', a)
         return a
 print(re_func(1))
-

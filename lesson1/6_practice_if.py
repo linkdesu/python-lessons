@@ -31,12 +31,5 @@ if a > 2 or a < 5:
     
 a = a * 10
 
-# 判断 num 是否是 5 的倍数，如果不是，就判断 num 是奇数，还是偶数。
+# 首先判断 num 是否是 5 的倍数，如果不是，再判断 num 是奇数，还是偶数。
 num = 99
-# if num % 5 == 0:
-#     print("%d is a multiple of 5" % num)
-# else:
-#     if num % 2 > 0:
-#         print("%d is an odd number." % num)
-#     else:
-#         print("%d is an even number." % num)
