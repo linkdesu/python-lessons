@@ -3,13 +3,13 @@
     1_module
 """
 
-# 导入内置模块
+# 导入内置模块/第三方模块
 import sys, os
 
-# 导入内置模块并赋予别名
+# 导入内置模块/第三方模块并赋予别名
 import sys as system
 
-# 只导入内置模块的部分功能
+# 只导入内置模块/第三方模块的部分功能
 from os import walk, remove
 
 # 导入自定义模块，并使用相对导入 https://www.python.org/dev/peps/pep-0328/
