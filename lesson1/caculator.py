@@ -1,8 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-    caculator
-"""
-
 
 # define functions
 def add(x, y):

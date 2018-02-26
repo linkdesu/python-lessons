@@ -39,7 +39,7 @@ def arg_test(a, b, c=1, d='test', *args, **kw):
 
 def re_func(a):
     if a < 10:
-        print('In: ', a)
+        print('In: ', A)
         b = re_func(a + 1)
         print('Out: ', a)
         return b
